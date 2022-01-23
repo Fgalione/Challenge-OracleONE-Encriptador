@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Linck a google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        
+        <div class="logo">
+            <img src="logo-aluraespanhol.svg">
+        </div>
+
+        <div class="titulo">
+            <h1>Challenge Alura Latam - Oracle-ONE</h1>
+        </div>
+        
+        
+        <div class="main">
+            
+            <div class="inputBox">
+                <form class="input box">
+                    <label for="input-texto">Solo letras minúsculas, sin acento</label><br>
+                    <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"><br>
+                </form>
+                <div class="button">
+                    <input  class= "btn" type="button" onclick="btnEncriptar()" value="Encriptar!" id="btn-encriptar">
+                    <input class="btn" onclick="btnDesencriptar()" type="button" value="Desencriptar!" id="btn-desencriptar">
+                </div>
+
+            </div>
+            <div class="msgBox">
+                <section class="msg box">
+                    <h2 id="">Mensaje encriptado:</h2>
+                    <input class="text-input" type="text" id="msg"></input><br>
+                    <input class="btn" onclick="btnCopiar()" type="button" value="Copiar" id="btn-copy">
+                    <input class="btn" onclick="btnBorrar()" type="button" value="Borrar" id="btn-borrar">
+                </section>
+            </div>
+            
+        </div>
+        <div class="footer">
+            <p>© Derechos reservados Federico Galione</p>
+            
+
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(71, 70, 70);
+  margin:0px 90px;
+  padding:30px;
+}
+
+.contenedor{
+  background: rgb(173, 172, 172);
+  
+  height: auto;
+  width: 1250px;
+  border:10px solid lightblue;
+  border-radius: 15px;
+
+}
+.titulo{
+  background: #3381da;
+  margin:10px;
+  width: 900px;
+  height: 100px;
+  border-radius: 25px;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  margin: 10px;
+  padding: 20px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 30px;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  
+}
+label{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  
+}
+.logo{
+  background: whitesmoke;
+  margin:10px;
+  width: 300px;
+  height: 100px;
+  float: right;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+img{
+  margin:inherit;
+  padding: 15px;
+  float:right;
+}
+
+.main{
+  background: lightslategray;
+  background-image:url(matrix.gif) ;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputBox{
+  background: #3381da;
+  height: 350px;
+  width: 550px;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+  
+}
+.msgBox{
+  background: #3381da;
+  height: 350px;
+  width: 550px;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.btn{
+  background: blue;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: lightseagreen;
+  font-size: 1rem;
+  margin-top: 50px;
+  position:static;
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  border: 3px solid #7eddfa;
+  transition: 1s;
+}
+
+.btn:hover{
+  background: #07f4fc;
+  color: #0e058f;
+}
+.text-input{
+  width: 400px;
+  height: 150px;
+  border: 2px solid navy;
+  border-radius: 25px;
+  
+}
+.footer{
+  background: rgb(71, 70, 70);
+  height: 75px;
+  color: whitesmoke;
+}
+
+
+
